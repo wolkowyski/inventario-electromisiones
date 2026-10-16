@@ -1,0 +1,20 @@
+# Entorno y dependencias
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PyInstaller (evitar subir ejecutables pesados al repo)
+build/
+dist/
+*.spec
+
+# Archivos de salida y progreso
+*.pdf
+*.csv
+progreso_inventario.json*
+inventario_anterior.json*
+.inventario_electromisiones.json
+
+# VS Code
+.vscode/
